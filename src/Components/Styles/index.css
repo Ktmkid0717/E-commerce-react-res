@@ -88,7 +88,7 @@ color: #000000;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100px;
+    width: 150px;
 }
 .navbar-center{
     display: flex;
@@ -599,8 +599,16 @@ text-transform: capitalize;
     width: 100%;
     display: block;
 }
-.carousel-content{
-    
+.section-3-sub{
+    position: relative;
+}
+.guid-section{
+width: 475px;
+
+}
+.size-menu{
+    width: 500px;
+    gap: 20px;
 }
 .section-img1{
     background: url(../Images/img0.jpg);
