@@ -5,14 +5,14 @@ import Section1 from './section1'
 import Section2 from './section2'
 import Section3 from './section3'
 import SectionFooter from './sectionFooter'
-const Home=()=> {
+const Home=(props)=> {
   return (<>
   <div className='container'>
     <Navbar/> 
   <div className='content-section'>
     <Section1/>
     <Section2/>
-    <Section3/>
+    <Section3 scrollend={props.scrollend}/>
   </div>
 
   <SectionFooter/>

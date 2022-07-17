@@ -1,9 +1,10 @@
 import React,{useState,useEffect} from 'react'
 import '../Styles/index.css'
-const Section3 = () => {
+const Section3 = (props) => {
+  console.log(props.scrollend);
   return (
     <div className='section-3'>
-        <div className='section-3-sub'>
+        <div className={props.scrollend?'':'section-3-sub'}>
         <div className='section-head'>
     <div className='header-title'>JONATHAN SIMKHAI</div>
     <div className='header-sub-title'>Lurex Linen Viscose Jacket in Conchiglia</div>

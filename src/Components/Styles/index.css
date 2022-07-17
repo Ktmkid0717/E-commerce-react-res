@@ -249,7 +249,9 @@ text-transform: capitalize;
 .section-3{
     padding: 50px 10px 0 10px;
 }
-
+.section-3-sub{
+    position: fixed;
+}
 .section-head .header-title{
     width: 288px;
 height: 92px;
@@ -331,6 +333,7 @@ gap :8px
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    width: 335px;
 }
 .guid-section .guid-label1{
     font-family: 'Helvetica Now Text';
